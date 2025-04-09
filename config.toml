@@ -1,13 +1,9 @@
 title = "Dashboard"
-base_url = "https://dashboard.toniogela.dev"
+base_url = "https://v2.dashboard.toniogela.dev"
 compile_sass = true
 minify_html = true
 
 extra.directSearch = 'https://duckduckgo.com/?q='
-
-[[extra.engine]]
-name = "Github"
-url = "https://github.com/search?q="
 
 [[extra.engine]]
 name = "JustWatch"
@@ -20,35 +16,6 @@ url = "https://filmsimili.it/search/?q="
 [[extra.engine]]
 name = "Youtube"
 url = "https://www.youtube.com/results?search_query="
-
-[[extra.engine]]
-name = "Linkedin"
-url = "https://www.linkedin.com/search/results/all/?keywords="
-
-[[extra.card]]
-title = "GitHub"
-img = "github.svg"
-url = "https://github.com/TonioGela"
-
-[[extra.card]]
-title = "YouTube"
-img = "youtube.svg"
-url = "http://youtube.com"
-
-[[extra.card]]
-title = "Amazon"
-img = "amazon.svg"
-url = "https://www.amazon.it"
-
-[[extra.card]]
-title = "Gmail"
-img = "gmail.svg"
-url = "https://www.gmail.com"
-
-[[extra.card]]
-title = "Mastodon"
-img = "mastodon.svg"
-url = "https://hachyderm.io/home"
 
 [[extra.card]]
 title = "Netflix"
@@ -64,13 +31,3 @@ url = "https://www.primevideo.com"
 title = "Disney +"
 img = "disney.svg"
 url = "https://www.disneyplus.com"
-
-[[extra.card]]
-title = "Hacker News"
-img = "hackernews.svg"
-url = "https://news.ycombinator.com"
-
-[[extra.card]]
-title = "Il Post"
-img = "ilpost.svg"
-url = "https://www.ilpost.it"
